@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="gabriela.jogodavelha.JogoAmigo"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Num1"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num2"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num3"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Num4"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num5"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num6"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Num7"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num8"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/Num9"
+            android:onClick="onClick"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/Jogar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Jogar" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/opX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <RadioButton
+            android:id="@+id/opO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O" />
+    </RadioGroup>
+</LinearLayout>
